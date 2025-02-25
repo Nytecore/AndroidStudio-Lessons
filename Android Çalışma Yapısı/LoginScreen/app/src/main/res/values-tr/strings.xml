@@ -1,0 +1,7 @@
+<resources>
+    <string name="uygulama_adi">Giriş Ekranı</string>
+    <string name="kullanici_adi">Kullanıcı Adı</string>
+    <string name="parola">Parola</string>
+    <string name="girisButonu">GİRİŞ</string>
+    <string name="yardim_alani">Yardım ?</string>
+</resources>

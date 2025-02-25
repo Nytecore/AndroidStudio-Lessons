@@ -1,0 +1,8 @@
+<resources>
+    <string name="uygulama_adi">Login Screen</string>
+    <string name="kullanici_adi">Username</string>
+    <string name="parola">Password</string>
+    <string name="girisButonu">LOG IN</string>
+    <string name="yardim_alani">Help ?</string>
+    <string name="app_name">loginScreen</string>
+</resources>
