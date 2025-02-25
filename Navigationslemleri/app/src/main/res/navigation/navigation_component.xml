@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_component"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.navigationslemleri.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/anasayfadanGecis"
+            app:destination="@id/oyunEkraniFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/oyunEkraniFragment"
+        android:name="com.example.navigationslemleri.OyunEkraniFragment"
+        android:label="fragment_oyun_ekrani"
+        tools:layout="@layout/fragment_oyun_ekrani" >
+        <action
+            android:id="@+id/oyunEkranindanGecis"
+            app:destination="@id/sonucEkraniFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/oyunEkraniFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="nesne"
+            app:argType="com.example.navigationslemleri.Kisiler" />
+        <argument
+            android:name="isim"
+            app:argType="string"
+            android:defaultValue="İsimsiz" />
+        <argument
+            android:name="boy"
+            app:argType="float"
+            android:defaultValue="0.0" />
+        <argument
+            android:name="numara"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/sonucEkraniFragment"
+        android:name="com.example.navigationslemleri.SonucEkraniFragment"
+        android:label="fragment_sonuc_ekrani"
+        tools:layout="@layout/fragment_sonuc_ekrani" />
+</navigation>
