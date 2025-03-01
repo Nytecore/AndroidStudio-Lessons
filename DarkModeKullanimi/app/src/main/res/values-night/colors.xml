@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonRenk">#C30C0C</color>
+    <color name="textRenk">#FF9100</color>
+</resources>
