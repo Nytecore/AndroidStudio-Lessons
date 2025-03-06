@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_bilgi"
+        android:icon="@drawable/info_icon"
+        android:title="Bilgi"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_ekle"
+        android:icon="@drawable/ekle_icon"
+        android:title="Ekle"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_ayarlar"
+        android:title="Ayarlar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cikis"
+        android:title="Çıkış"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ara"
+        android:icon="@drawable/ara_icon"
+        android:title="Ara"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/fragmentFabButton">
+
+    <fragment
+        android:id="@+id/fragmentFabButton"
+        android:name="com.example.materialdesignkullanimlari.FragmentFabButton"
+        android:label="fragment_fab_button"
+        tools:layout="@layout/fragment_fab_button" >
+        <action
+            android:id="@+id/sifirdanBire"
+            app:destination="@id/fragmentFloatingLabels"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFloatingLabels"
+        android:name="com.example.materialdesignkullanimlari.FragmentFloatingLabels"
+        android:label="fragment_floating_labels"
+        tools:layout="@layout/fragment_floating_labels" >
+        <action
+            android:id="@+id/birdenSifira"
+            app:destination="@id/fragmentFabButton"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/birdenIkiye"
+            app:destination="@id/fragmentToolbarKullanimi"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentToolbarKullanimi"
+        android:name="com.example.materialdesignkullanimlari.FragmentToolbarKullanimi"
+        android:label="fragment_toolbar_kullanimi"
+        tools:layout="@layout/fragment_toolbar_kullanimi" >
+        <action
+            android:id="@+id/ikidenBire"
+            app:destination="@id/fragmentFloatingLabels"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>
