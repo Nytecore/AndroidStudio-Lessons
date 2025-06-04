@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.storingdata.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.storingdata.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/bora/.gradle/daemon/8.11.1/com.example.storingdata.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "/Users/bora/.gradle/daemon/8.11.1/com.example.storingdata.app-main-33:/layout/activity_main.xml"
+    }
+]
