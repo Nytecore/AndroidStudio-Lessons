@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable birinci_resim
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ikinci_resim
+id birinciFragment
+id bottomNav
+id drawer
+id end
+id ikinciFragment
+id main_activity_nav
+id nav_host_fragment
+id start
+id textView
+id textView2
+layout activity_main
+layout fragment_birinci
+layout fragment_ikinci
+menu main_activity_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation main_activity_nav
+string app_name
+string hello_blank_fragment
+style Base.Theme.ButtomNavigationKullanimi
+style Theme.ButtomNavigationKullanimi
+xml backup_rules
+xml data_extraction_rules
+xml fragment_birinci_scene
